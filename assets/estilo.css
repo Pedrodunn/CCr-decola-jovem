@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 174, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #fbaf41
+    position: blanchedalmond;
+    top: 0;
+    width: 75vw;
+    display: flex;
+    justify-content: space-evenly
+}
+
+#logo{
+  
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#formContato {
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    }
+    #formContato {
+    display:center 
+    }
+
+nav a{
+    padding: 10px;
+    color: white;
+}
+
+nav a:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+#rowOne{
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+#imgRowOne{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#rowTwo{
+    background-color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+#rowTwo img{
+    height: 200px;
+    width: 200px;
+}
+
+#rowTwo h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #304050;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+#rowThree h3{
+
+    text-align: center;
+    padding-top: 20px;
+    color: #304050;
+    text-transform: uppercase;
+    overflow: hidden;
+
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.esquerda{
+    display: flex;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rowThree p{
+    font-weight: bolder;
+    font-size: 30pt;
+    padding: 80px;
+    text-transform: uppercase;
+    color: #304050;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #304050;
+    color: white;
+    position: absolute;
+    padding: 20px;
+    width: 96vw;
+}
